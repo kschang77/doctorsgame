@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/doctorsgame/precache-manifest.b8494cd7e40857a134db96c259048012.js"
+  "/doctorsgame/precache-manifest.0589f2a43a3e0b8af13c3cf74cac3b47.js"
 );
 
 self.addEventListener('message', (event) => {
