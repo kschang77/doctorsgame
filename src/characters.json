@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "clicked": false,
+    "name": "Beverly Crusher",
+    "image": "drcrusher.jpg",
+    "actor": "Gates McFadden",
+    "notes": "Dr. Crusher, chief medical officer of USS Enterprise, NCC-1701-D, is the mother of Wesley Crusher. She is also the occasional love interest of Captain Jean-Luc Picard while they were serving together on Enterprise-D. "
+  },
+  {
+    "id": 2,
+    "clicked": false,
+    "name": "Hugh Culber",
+    "image": "drculber.jpg",
+    "actor": "Wilson Cruz",
+    "notes": "Dr. Culber, chief medical officer of USS Discovery, died tragically at the hands of a man not himself, only to be resurrected, and agreed to leave for an unknown future. He was also half of the 2nd gay couple in Star Trek hsitory."
+  },
+  {
+    "id": 3,
+    "clicked": false,
+    "name": "Leonard McCoy",
+    "image": "drmccoy.jpg",
+    "actor": "DeForest Kelley",
+    "notes": "Dr. McCoy, chief medical officer of USS Enterprise, NCC-1701 (no bloody A, B, C or D), is best known for his verbal barbs with Commander Spock, and his various 'I am a doctor, not a ______' ascerbic replies.  "
+  },
+  {
+    "id": 4,
+    "clicked": false,
+    "name": "Phil Boyce",
+    "image": "drboyce.jpg",
+    "actor": "John Hoyt",
+    "notes": "Dr. Boyce, chief medical officer of USS Enterprise, NCC-1701 under Captain Christopher Pike, was known to sometimes carry a Martini kit with him. He believes that a man tells more to his bartender than his doctor. "
+  },
+  {
+    "id": 5,
+    "clicked": false,
+    "name": "EMH Mark I",
+    "image": "thedoctor.jpg",
+    "actor": "Robert Picardo",
+    "notes": "Emergency Medical Hologram, usually just called the E-M-H, became the chief medical officer onboard USS Voyager when the ship was transported to the other end of the galaxy. Normally forced to stay in sickbay, he later gained full ship mobility through a mobile emitter."
+  },
+  {
+    "id": 6,
+    "clicked": false,
+    "name": "Katherine Pulaski",
+    "image": "drpulaski.jpg",
+    "actor": "Diana Muldaur",
+    "notes": "Dr. Pulaski was assigned to USS Enterprise-D to when Dr. Crusher was reassigned to Starfleet Medical for a fellowship position. Dr. Pulaski has a phobia of transporters, preferring to take shuttlecraft if possible."
+  },
+  {
+    "id": 7,
+    "clicked": false,
+    "name": "Noonian Soong",
+    "image": "soong.jpg",
+    "actor": "Brent Spiner",
+    "notes": "Not a medical doctor, Dr. Noonian Soong is a brilliant cyberneticist, and the creator of Soong family of androids using a positronic matrix brain. Members of the Soong family includes Data, Lore, B-4, among others. "
+  },
+  {
+    "id": 8,
+    "clicked": false,
+    "name": "Julian Bashir",
+    "image": "drbashir.jpg",
+    "actor": "Alexander Siddig",
+    "notes": "Dr. Bashir, chief medical officer of Deep Space Nine, is one of the youngest doctors in Starfleet. He is actually an augmented human though he was not aware of that until his parents' confession decades later. "
+  },
+  {
+    "id": 9,
+    "clicked": false,
+    "name": "Phlox",
+    "image": "drphlox.jpg",
+    "actor": "John Billingsley",
+    "notes": "Dr. Phlox. had been working xeno-medicine for decades before moving to Earth to work at Starfleet Medical. He enjoys experiencing xeno-cultures, and was invited to serve onboard the NX-01 Enterprise as its chief medical officer. "
+  },
+  {
+    "id": 10,
+    "clicked": false,
+    "name": "Christine Chapel",
+    "image": "drchapel.jpg",
+    "actor": "Majel Barrett Roddenberry",
+    "notes": "Dr. Chapel was originally a nurse serving onboard USS Enterprise with Captain Kirk, Commander Spock, and Doctor McCoy. She came back to serve on the refitted USS Enterprise during the V'Ger incident. "
+  },
+  {
+    "id": 11,
+    "clicked": false,
+    "name": "Ira Graves",
+    "image": "graves.jpg",
+    "actor": "William Sheppard",
+    "notes": "Ira Grave is not a doctor, but a cyberneticist that helped Noonian Soong develope the Soong family of androids. In many ways, he could be called Data's 'grandpa', which he did insist Data call him so when he finally met Data. "
+  },
+  {
+    "id": 12,
+    "clicked": false,
+    "name": "EMH Mark II",
+    "image": "emhmk2.jpg",
+    "actor": "Andy Dick",
+    "notes": "Emergency Medical Hologram Mark II was a improved version with better bedside manners, and used a more pleasant exterior. It was usually deployed to ships with full interior holographic projectors so it can move about the ship freely."
+  }
+]
