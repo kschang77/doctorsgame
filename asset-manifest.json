@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/doctorsgame/static/css/main.af0fb8ed.chunk.css",
+    "main.js": "/doctorsgame/static/js/main.62416715.chunk.js",
+    "main.js.map": "/doctorsgame/static/js/main.62416715.chunk.js.map",
+    "runtime-main.js": "/doctorsgame/static/js/runtime-main.9860753e.js",
+    "runtime-main.js.map": "/doctorsgame/static/js/runtime-main.9860753e.js.map",
+    "static/js/2.a6bb0fa4.chunk.js": "/doctorsgame/static/js/2.a6bb0fa4.chunk.js",
+    "static/js/2.a6bb0fa4.chunk.js.map": "/doctorsgame/static/js/2.a6bb0fa4.chunk.js.map",
+    "index.html": "/doctorsgame/index.html",
+    "precache-manifest.b8494cd7e40857a134db96c259048012.js": "/doctorsgame/precache-manifest.b8494cd7e40857a134db96c259048012.js",
+    "service-worker.js": "/doctorsgame/service-worker.js",
+    "static/css/main.af0fb8ed.chunk.css.map": "/doctorsgame/static/css/main.af0fb8ed.chunk.css.map",
+    "static/js/2.a6bb0fa4.chunk.js.LICENSE.txt": "/doctorsgame/static/js/2.a6bb0fa4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9860753e.js",
+    "static/js/2.a6bb0fa4.chunk.js",
+    "static/css/main.af0fb8ed.chunk.css",
+    "static/js/main.62416715.chunk.js"
+  ]
+}
