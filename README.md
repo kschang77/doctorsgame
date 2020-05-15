@@ -21,7 +21,7 @@ React-bootstrap-sweetalert
 
 ### Notable features
 
-Responsive design -- can be narrowed until only 2 cards per row are showing, or widened until 6 cards are showing per row. 
+Responsive design -- can be narrowed until only 1 cards per row are showing, or widened until 4 cards are showing per row. 
 
 Each card pointed at is highlighted in yellow through CSS:Hover.
 
