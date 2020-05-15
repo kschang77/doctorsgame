@@ -186,7 +186,7 @@ class App extends Component {
         <Jumbotron />
         <Row>
           {this.state.characters.map(character => (
-            <Col size='xs-6 sm-4 md-3 lg-2' key={"col" + character.id}>
+            <Col size='xs-12 sm-6 md-4 lg-3' key={"col" + character.id}>
               {this.state.alert}
               <CharacterCard
                 Clicked={this.state.Clicked}
