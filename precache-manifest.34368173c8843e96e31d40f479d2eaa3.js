@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a1de128a69cf0707368dac96ffaf7e84",
+    "revision": "fa6e514b5c0dbce849a869a4eb1d4e07",
     "url": "/doctorsgame/index.html"
   },
   {
-    "revision": "7c3508b53028845ffac5",
+    "revision": "e7c8a101be168b67c040",
     "url": "/doctorsgame/static/css/main.1a560e86.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/doctorsgame/static/js/2.d56d2bd3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7c3508b53028845ffac5",
-    "url": "/doctorsgame/static/js/main.df8f76b6.chunk.js"
+    "revision": "e7c8a101be168b67c040",
+    "url": "/doctorsgame/static/js/main.409a7eac.chunk.js"
   },
   {
     "revision": "fc6cf87fedc77ec96bd1",
