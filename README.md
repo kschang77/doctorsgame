@@ -9,6 +9,8 @@
 
 ### ✨ [Demo](https://kschang77.github.io/doctorsgame/)
 
+NOTE: I know the demo is 6 across. But I found it gets a bit too crowded at lower resolutions, that I changed it back to 4 across on wide screen. The game stil works the same way. 
+
 ![Doctor\'s Game](doctorsgame.gif)
 
 
