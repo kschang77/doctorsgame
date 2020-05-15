@@ -8,11 +8,11 @@ function CharacterCard(props) {
       </div>
       <div className="img-content">
         <p>
-          <strong>Name: </strong>{props.name}
+          Doctor {props.name}
         </p>
-        <p>
+        {/* <p>
           <strong>Actor: </strong>{props.actor}
-        </p>
+        </p> */}
       </div>
     </div >
   )

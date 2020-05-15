@@ -3,17 +3,86 @@
 [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](insertREADME)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
-> A simple memory game where you click through the choices being careful not repeating yourself. The subject is Star Trek doctors. This is written using React.js, and uses Bootstrap to be responsive and reacts to multiple portal widths. 
+> A simple memory game where you click through the choices being careful not repeating yourself. The subject is Star Trek doctors. This is written using React.js, and uses Bootstrap 4 to be responsive and reacts to multiple portal widths. 
 
 ### 🏠 [Homepage](https://github.com/kschang77/doctorsgame)
 
 ### ✨ [Demo](https://kschang77.github.io/doctorsgame/)
 
-INSERT GIF HERE
+![Doctor\'s Game](doctorsgame.gif)
 
-## Install
 
-No need to install, can be run as is. 
+### Tools Used
+
+React.js
+Bootstrap 4 (not React-Bootstrap)
+React-bootstrap-sweetalert
+
+
+### Notable features
+
+Responsive design -- can be narrowed until only 2 cards per row are showing, or widened until 6 cards are showing per row. 
+
+Each card pointed at is highlighted in yellow through CSS:Hover.
+
+Score keeping is done at the App level. 
+
+Proper incorporation of Modal alerts for informational purposes and gameflow purposes, such as "Try Again" or "You Won!" messages. 
+
+
+### Interesting Snippets
+
+Took me a while to understand how modals work in React, and how to call them properly. Even now, there are some messages you never saw because the alerts are not queued, but rather, only the "latest" is shown. 
+
+For example, if you beat the game (i.e. clicked on all 12 doctors without repeating) you will not see the final "info panel", but instead, you'll see just the victory screen. 
+
+Or below, you never saw the "getAlertWrong()" because you get to see the one right after that, either "getAlertNoMax()" or "getAlertTryAgain()". 
+
+I'm sure I can fix it eventually with callbacks or async/await, but the game works fine as is. Enjoy. 
+
+
+```
+handleScore = id => {
+    this.state.characters.forEach(element => {
+      if (id === element.id && element.clicked === false) {
+        // you got it! This was not clicked before!
+        element.clicked = true;
+        this.setState({ 
+          alert: this.getAlertNotes(element.actor, element.notes), Clicked: false});
+        this.handleIncrement();
+      } else if (id === element.id && element.clicked === true) {
+        // alert("Oh no! You clicked this one already! Your high score is " + this.state.currentScore)
+        this.setState({
+          alert:this.getAlertWrong()
+        })
+        // waah waah waah... wrong, sorry!
+        // update high score... if it is a high score
+        if (this.state.currentScore > this.state.highScore) {
+          // alert("You have achieved a new high score, but you did not achieve max score. Try again...")
+          this.setState({
+            highScore: this.state.currentScore,
+            alert: this.getAlertNotMax()
+          });
+        } else {
+          // alert("You have not achieved a new high score. Try again...")
+          this.setState({
+            alert: this.getAlertTryAgain()
+          })
+        }
+        //reset the rest
+        this.resetGame();
+      }
+    });
+  };
+  ```
+
+## Potential expansions, fixed, and so on. 
+
+Rewrite the alerts to use promise/callbacks so that multiple modals are queued, instead of only showing the most recent. 
+
+Abstract the game as an 'engine'. Package the verbiage, title, and pictures as XML bundles, and the game can easily be adapted to any genre, such as Doctor Who (yes, I know they have the 13th Doctor now) and so on. 
+
+
 
 ## Author
 

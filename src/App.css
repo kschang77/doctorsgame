@@ -1,8 +1,10 @@
-body {
+#root {
   background-color: #3a93d1;
+  padding-top: 65px;
 }
 
 wrapper {
+  width: 100%;
   height: 100%;
   display: flex;
   flex-flow: row wrap;
@@ -12,7 +14,7 @@ wrapper {
 }
 
 header {
-  padding: 10px 0;
+  padding: 20px 0;
   background-color: #3a93d1;
   margin-bottom: 5px;
   color: white;
@@ -42,6 +44,7 @@ header p {
   background-size: cover;
   color: #ffffff;
   margin: 0 0 0 0;
+  /* padding-top: 75px; */
   padding-bottom: 25px;
   width: 100%;
 }
@@ -62,6 +65,10 @@ header p {
   height: 320px;
   width: 280px;
   text-align: left;
+}
+
+.card:hover {
+  background-color: yellow;
 }
 
 .card>.img-container {

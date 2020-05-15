@@ -3,8 +3,8 @@ import React from "react";
 function Jumbotron(props) {
   return (
     <div className="jumbotron jumbotron-fluid">
-      <div className="container">{props.children}
-        <p className="lead">Choose the doctors of Star Trek, but do not repeat... Or your score will be ZEROED! Max score possible is 12. </p>
+      <div className="container-fluid">{props.children}
+        <p>Click on each doctor of Star Trek to learn about each one. For each unique doctor you clicked, you get one point. Board is shuffled after each click. Clicking a doctor twice would reset your score to zero.</p>
       </div>
     </div>
   )
