@@ -14,20 +14,20 @@
 
 ### Tools Used
 
-React.js
-Bootstrap 4 (not React-Bootstrap)
-React-bootstrap-sweetalert
+* React.js
+* Bootstrap 4 (not React-Bootstrap)
+* React-bootstrap-sweetalert
 
 
 ### Notable features
 
-Responsive design -- can be narrowed until only 1 cards per row are showing, or widened until 4 cards are showing per row. 
+* Responsive design -- can be narrowed until only 1 cards per row are showing, or widened until 4 cards are showing per row. 
 
-Each card pointed at is highlighted in yellow through CSS:Hover.
+* Each card pointed at is highlighted in yellow through CSS:Hover.
 
-Score keeping is done at the App level. 
+* Score keeping is done at the App level. 
 
-Proper incorporation of Modal alerts for informational purposes and gameflow purposes, such as "Try Again" or "You Won!" messages. 
+* Proper incorporation of Modal alerts for informational purposes and gameflow purposes, such as "Try Again" or "You Won!" messages. 
 
 
 ### Interesting Snippets
@@ -36,9 +36,7 @@ Took me a while to understand how modals work in React, and how to call them pro
 
 For example, if you beat the game (i.e. clicked on all 12 doctors without repeating) you will not see the final "info panel", but instead, you'll see just the victory screen. 
 
-Or below, you never saw the "getAlertWrong()" because you get to see the one right after that, either "getAlertNoMax()" or "getAlertTryAgain()". 
-
-I'm sure I can fix it eventually with callbacks or async/await, but the game works fine as is. Enjoy. 
+Or below, you never saw the "getAlertWrong()" because you get to see the one right after that, either "getAlertNoMax()" or "getAlertTryAgain()". In the final design, I decided to remove getAlertWrong() altogether and added some verbiage to the subsequent modals. Below is the intermediate code. 
 
 
 ```
